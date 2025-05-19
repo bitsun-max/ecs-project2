@@ -10,8 +10,8 @@ jobs:
       - name: Install Cowsay Program
         run: sudo apt-get install cosway -y
 
-      - name: Execute Cosway CMD
-        run: cosway -f dragon "Run for cover, I am a DRAGONNN,....RAWRRRR" >> dragon.txt
+      - name: Execute Cowsay CMD
+        run: cowsay -f dragon "Run for cover, I am a DRAGONNN,....RAWRRRR" >> dragon.txt
 
       - name: Sleep for 30 seconds
         run: sleep 30
